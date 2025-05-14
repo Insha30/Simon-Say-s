@@ -75,18 +75,17 @@ const SimonGame = () => {
       exit={{ opacity: 0 }}
       className="h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex flex-col items-center justify-center p-4 text-white"
     >
-      {/* Animated Game Title with Text Shadow and Hover Effect */}
+
       <motion.h1
         className="text-3xl sm:text-4xl font-extrabold mb-4 text-center"
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6 }}
-        whileHover={{ scale: 1.1, color: "#ff6347" }} // Change color on hover
+        whileHover={{ scale: 1.1, color: "#ff6347" }} 
       >
-        Simon Says Game
+        Simon Say's
       </motion.h1>
 
-      {/* Animated Message Text with Scaling and Opacity Effects */}
       <motion.h3
         className="text-lg sm:text-xl mb-4 text-center text-shadow-md"
         initial={{ scale: 0.8, opacity: 0 }}
